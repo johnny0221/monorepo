@@ -22,5 +22,13 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "personal-website": {
+      "tags": []
+    },
+    "personal-website-e2e": {
+      "tags": [],
+      "implicitDependencies": ["personal-website"]
+    }
+  }
 }

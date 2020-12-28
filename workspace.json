@@ -129,6 +129,37 @@
           }
         }
       }
+    },
+    "personal-website-ui-timeline": {
+      "projectType": "library",
+      "root": "libs/personal-website/ui-timeline",
+      "sourceRoot": "libs/personal-website/ui-timeline/src",
+      "prefix": "personal",
+      "targets": {
+        "lint": {
+          "executor": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/personal-website/ui-timeline/tsconfig.lib.json",
+              "libs/personal-website/ui-timeline/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/personal-website/ui-timeline/**/*"
+            ]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": [
+            "coverage/libs/personal-website/ui-timeline"
+          ],
+          "options": {
+            "jestConfig": "libs/personal-website/ui-timeline/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {

@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@personal/personal-website/ui-timeline": [
+        "libs/personal-website/ui-timeline/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

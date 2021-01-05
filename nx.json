@@ -29,6 +29,9 @@
     "personal-website-e2e": {
       "tags": [],
       "implicitDependencies": ["personal-website"]
+    },
+    "shared-component-lib": {
+      "tags": []
     }
   }
 }

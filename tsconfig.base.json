@@ -17,7 +17,8 @@
     "paths": {
       "@personal/shared/component-lib": [
         "libs/shared/component-lib/src/index.ts"
-      ]
+      ],
+      "@personal/shared/types": ["libs/shared/types/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

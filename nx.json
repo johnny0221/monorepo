@@ -32,6 +32,9 @@
     },
     "shared-component-lib": {
       "tags": []
+    },
+    "shared-types": {
+      "tags": []
     }
   }
 }

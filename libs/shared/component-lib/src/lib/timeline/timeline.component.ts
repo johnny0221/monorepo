@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { TimeLineNode } from '@personal/shared/types'
 
 @Component({
   selector: 'personal-timeline',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./timeline.component.scss']
 })
 export class TimelineComponent implements OnInit {
+
+  @Input() timeLineNodeLists: TimeLineNode[];
 
   constructor() { }
 

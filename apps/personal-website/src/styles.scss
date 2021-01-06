@@ -1,8 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 *,
 *:before,
 *:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Advent Pro', sans-serif;
 }
+
+h1, h2, h3 {
+  font-family: 'Concert One', cursive;
+}
+
+
